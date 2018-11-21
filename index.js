@@ -2,6 +2,8 @@ const curry = fn => (...args) => fn.bind(null, ...args);
 
 const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
 
+const myfunc = () => {}
+
 const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
 
 Array.prototype.unwind = function (key) {
