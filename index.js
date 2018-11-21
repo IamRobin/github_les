@@ -9,4 +9,3 @@ Array.prototype.unwind = function (key) {
     [].concat(acc, curr[key].map(val => ({ ...curr, [key]: val }))), []);
 };
 
-const arr = [1,23,4,5];
