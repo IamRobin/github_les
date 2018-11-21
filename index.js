@@ -18,3 +18,5 @@ Array.prototype.unwind = function (key) {
 const arr = [1,23,4,5];
 
 let vincent = "hoi";
+
+const newFeature = 'awesome';
